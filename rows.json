@@ -1,0 +1,743 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "tyjc-nqc2",
+      "name" : "NYC Open Data Plan - Scheduled Releases 2016",
+      "attribution" : "Department of Information Technology & Telecommunications (DoITT)",
+      "averageRating" : 0,
+      "category" : "City Government",
+      "createdAt" : 1405522663,
+      "description" : "This inventory includes all datasets scheduled for release between July 2016 and December 31, 2018.",
+      "displayType" : "table",
+      "downloadCount" : 725,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1474470671,
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 23945725,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1474412894,
+      "publicationGroup" : 1651271,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowsUpdatedAt" : 1474412871,
+      "rowsUpdatedBy" : "5fuc-pqz2",
+      "tableId" : 13195456,
+      "totalTimesRated" : 0,
+      "viewCount" : 1125,
+      "viewLastModified" : 1474471796,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 270639108,
+        "name" : "Agency",
+        "dataTypeName" : "text",
+        "fieldName" : "agency",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 20849086,
+        "width" : 220,
+        "cachedContents" : {
+          "largest" : "Staten Island Borough President (BPSI)",
+          "non_null" : 212,
+          "null" : 0,
+          "top" : [ {
+            "item" : "Department of Transportation (DOT)",
+            "count" : 20
+          }, {
+            "item" : "New York City Housing Authority (NYCHA)",
+            "count" : 19
+          }, {
+            "item" : "Landmarks Preservation Commission (LPC)",
+            "count" : 18
+          }, {
+            "item" : "Department of City Planning (DCP)",
+            "count" : 17
+          }, {
+            "item" : "Fire Department of New York (FDNY)",
+            "count" : 16
+          }, {
+            "item" : "Department of Consumer Affairs (DCA)",
+            "count" : 15
+          }, {
+            "item" : "Office of Chief Medical Examiner (OCME)",
+            "count" : 14
+          }, {
+            "item" : "Department of Parks and Recreation (DPR)",
+            "count" : 13
+          }, {
+            "item" : "Department of Citywide Administrative Services (DCAS)",
+            "count" : 12
+          }, {
+            "item" : "Department of Health and Mental Hygiene (DOHMH)",
+            "count" : 11
+          }, {
+            "item" : "Department of Probation (DOP)",
+            "count" : 10
+          }, {
+            "item" : "Department of Investigation (DOI)",
+            "count" : 9
+          }, {
+            "item" : "Department of Sanitation (DSNY)",
+            "count" : 8
+          }, {
+            "item" : "Law Department (LAW)",
+            "count" : 7
+          }, {
+            "item" : "Mayor's Office of Management and Budget (OMB)",
+            "count" : 6
+          }, {
+            "item" : "Department of Buildings (DOB)",
+            "count" : 5
+          }, {
+            "item" : "NYC School Construction Authority (SCA)",
+            "count" : 4
+          }, {
+            "item" : "Office of the Mayor (OTM)",
+            "count" : 3
+          }, {
+            "item" : "NYC Independent Budget Office (IBO)",
+            "count" : 2
+          }, {
+            "item" : "Office of Administrative Trials and Hearings (OATH)",
+            "count" : 1
+          } ],
+          "smallest" : "Administration for Children's Services (ACS)"
+        },
+        "format" : { }
+      }, {
+        "id" : 270639109,
+        "name" : "Dataset",
+        "dataTypeName" : "text",
+        "fieldName" : "dataset",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 20849087,
+        "width" : 269,
+        "cachedContents" : {
+          "largest" : "Zoning Section Map Index",
+          "non_null" : 212,
+          "null" : 0,
+          "top" : [ {
+            "item" : "Inquiries",
+            "count" : 20
+          }, {
+            "item" : "Historical Events",
+            "count" : 19
+          }, {
+            "item" : "Office of Meditation and Conflict Resolution Listings",
+            "count" : 18
+          }, {
+            "item" : "Historical Allegations",
+            "count" : 17
+          }, {
+            "item" : "Appeals",
+            "count" : 16
+          }, {
+            "item" : "Historical Attorney",
+            "count" : 15
+          }, {
+            "item" : "Historical Amendments",
+            "count" : 14
+          } ],
+          "smallest" : "\"Youth Behavioral Risk Survey\" (Epiquery)"
+        },
+        "format" : { }
+      }, {
+        "id" : 270639122,
+        "name" : "Dataset Description",
+        "dataTypeName" : "text",
+        "fieldName" : "dataset_description",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 20849088,
+        "width" : 272,
+        "cachedContents" : {
+          "largest" : "Will contain licensing data such as licensee name, license type, etc.",
+          "non_null" : 212,
+          "null" : 0,
+          "top" : [ {
+            "item" : "Monthly consumption and cost data by borough and development. Data set includes utility vendor and meter information.   ",
+            "count" : 20
+          }, {
+            "item" : "NA",
+            "count" : 19
+          }, {
+            "item" : "Office of Mediation and Conflict Resolution - Listing of cases processed by OMCR.",
+            "count" : 18
+          }, {
+            "item" : "Law Enforcement Bureau Case - Allegations for the complaints.",
+            "count" : 17
+          }, {
+            "item" : "Law Enforcement Bureau - Listing of cases appealed.",
+            "count" : 16
+          }, {
+            "item" : "Law Enforcement Bureau - Attorney info for the complaints.",
+            "count" : 15
+          }, {
+            "item" : "Law Enforcement Bureau - Amendments for the complaints.",
+            "count" : 14
+          } ],
+          "smallest" : "A Certification may contain part of a list, the whole list or multiple lists, for a particular title that has been established. It also contains the names of individuals that appear on the eligible list in list sequence order, who may be considered for probable appointment for an agency to fill vacancies and/or replace provisionals."
+        },
+        "format" : { }
+      }, {
+        "id" : 270639123,
+        "name" : "Update Frequency",
+        "dataTypeName" : "text",
+        "fieldName" : "update_frequency",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 20849089,
+        "width" : 180,
+        "cachedContents" : {
+          "largest" : "Weekly",
+          "non_null" : 212,
+          "null" : 0,
+          "top" : [ {
+            "item" : "To Be Determined",
+            "count" : 20
+          }, {
+            "item" : "Daily",
+            "count" : 19
+          }, {
+            "item" : "Quarterly",
+            "count" : 18
+          }, {
+            "item" : "As Needed",
+            "count" : 17
+          }, {
+            "item" : "Annually",
+            "count" : 16
+          }, {
+            "item" : "Monthly",
+            "count" : 15
+          }, {
+            "item" : "Weekly",
+            "count" : 14
+          }, {
+            "item" : "Semi-Annually",
+            "count" : 13
+          }, {
+            "item" : "Bi-Annually",
+            "count" : 12
+          }, {
+            "item" : "Historical",
+            "count" : 11
+          }, {
+            "item" : "As needed",
+            "count" : 10
+          } ],
+          "smallest" : "Annually"
+        },
+        "format" : { }
+      }, {
+        "id" : 270639124,
+        "name" : "Planned Release Date",
+        "dataTypeName" : "calendar_date",
+        "fieldName" : "planned_release_date",
+        "position" : 5,
+        "renderTypeName" : "calendar_date",
+        "tableColumnId" : 20849090,
+        "width" : 195,
+        "cachedContents" : {
+          "largest" : "2018-12-31T00:00:00",
+          "non_null" : 212,
+          "null" : 0,
+          "top" : [ {
+            "item" : "2016-07-15T00:00:00",
+            "count" : 20
+          }, {
+            "item" : "2016-07-29T00:00:00",
+            "count" : 19
+          }, {
+            "item" : "2016-07-31T00:00:00",
+            "count" : 18
+          }, {
+            "item" : "2016-08-01T00:00:00",
+            "count" : 17
+          }, {
+            "item" : "2016-09-15T00:00:00",
+            "count" : 16
+          }, {
+            "item" : "2016-09-30T00:00:00",
+            "count" : 15
+          }, {
+            "item" : "2016-10-01T00:00:00",
+            "count" : 14
+          }, {
+            "item" : "2016-11-01T00:00:00",
+            "count" : 13
+          }, {
+            "item" : "2016-11-15T00:00:00",
+            "count" : 12
+          }, {
+            "item" : "2016-11-30T00:00:00",
+            "count" : 11
+          }, {
+            "item" : "2016-12-01T00:00:00",
+            "count" : 10
+          }, {
+            "item" : "2016-12-31T00:00:00",
+            "count" : 9
+          }, {
+            "item" : "2017-01-15T00:00:00",
+            "count" : 8
+          }, {
+            "item" : "2017-01-31T00:00:00",
+            "count" : 7
+          }, {
+            "item" : "2017-02-01T00:00:00",
+            "count" : 6
+          }, {
+            "item" : "2017-03-01T00:00:00",
+            "count" : 5
+          }, {
+            "item" : "2017-06-01T00:00:00",
+            "count" : 4
+          }, {
+            "item" : "2017-06-30T00:00:00",
+            "count" : 3
+          }, {
+            "item" : "2017-07-15T00:00:00",
+            "count" : 2
+          }, {
+            "item" : "2017-07-30T00:00:00",
+            "count" : 1
+          } ],
+          "smallest" : "2016-07-15T00:00:00"
+        },
+        "format" : {
+          "view" : "date",
+          "align" : "left"
+        }
+      }, {
+        "id" : 270639125,
+        "name" : "Link",
+        "dataTypeName" : "text",
+        "fieldName" : "link",
+        "position" : 6,
+        "renderTypeName" : "text",
+        "tableColumnId" : 22582091,
+        "width" : 100,
+        "cachedContents" : {
+          "largest" : "https://data.cityofnewyork.us/Transportation/Protected-Streets-Segments/9p9k-tusd",
+          "non_null" : 52,
+          "null" : 160,
+          "top" : [ {
+            "item" : "https://data.cityofnewyork.us/Transportation/Adopted-Highway-Service-Ratings-Adopt-a-Highway-Hi/dte3-kvx7",
+            "count" : 20
+          }, {
+            "item" : "https://data.cityofnewyork.us/Transportation/Bicycle-Network-Connectivity-Index/d9fg-z42k",
+            "count" : 19
+          }, {
+            "item" : "https://data.cityofnewyork.us/Transportation/Bridge-Ratings/9dux-uz3w",
+            "count" : 18
+          }, {
+            "item" : "https://data.cityofnewyork.us/Transportation/Pothole-Work-Orders-Closed/psde-rqze",
+            "count" : 17
+          }, {
+            "item" : "https://data.cityofnewyork.us/Transportation/Future-Protected-Streets-Intersections/yupw-u2ax",
+            "count" : 16
+          }, {
+            "item" : "https://data.cityofnewyork.us/Transportation/Future-Protected-Streets-Segments/pnij-y7y6",
+            "count" : 15
+          }, {
+            "item" : "https://data.cityofnewyork.us/Transportation/Protected-Streets-Intersections/hfa3-euj3",
+            "count" : 14
+          }, {
+            "item" : "https://data.cityofnewyork.us/Transportation/Protected-Streets-Segments/9p9k-tusd",
+            "count" : 13
+          }, {
+            "item" : "https://data.cityofnewyork.us/Housing-Development/Electric-Consumption-And-Cost-2016/sd8e-3ugp",
+            "count" : 12
+          }, {
+            "item" : "https://data.cityofnewyork.us/Housing-Development/Water-Consumption-And-Cost-2012-2016/66be-66yr",
+            "count" : 11
+          }, {
+            "item" : "https://data.cityofnewyork.us/Housing-Development/Heating-Gas-Consumption-And-Cost-2010-2016/it56-eyq4",
+            "count" : 10
+          }, {
+            "item" : "https://data.cityofnewyork.us/Housing-Development/Cooking-Gas-Consumption-And-Cost-2016/b8vr-3ckz",
+            "count" : 9
+          }, {
+            "item" : "https://data.cityofnewyork.us/Housing-Development/Heating-Oil-Consumption-And-Cost-2010-2016/bhwu-wuzu",
+            "count" : 8
+          }, {
+            "item" : "https://data.cityofnewyork.us/Housing-Development/Steam-Consumption-And-Cost-2010-2016/smdw-73pj",
+            "count" : 7
+          }, {
+            "item" : "https://data.cityofnewyork.us/City-Government/WRP-Coastal-Zone-Boundary-Geodatabase/wnv8-7aev",
+            "count" : 6
+          }, {
+            "item" : "https://data.cityofnewyork.us/Environment/WRP-Coastal-Zone-Boundary-Shapefile/jf36-fifp",
+            "count" : 5
+          }, {
+            "item" : "https://data.cityofnewyork.us/Transportation/NYCDCP-Manhattan-Bike-Count-Locations/xiyt-f6tz?firstRun=true",
+            "count" : 4
+          }, {
+            "item" : "https://data.cityofnewyork.us/dataset/Zoning-Map-Index-Section/bpt7-i8t8",
+            "count" : 3
+          }, {
+            "item" : "https://data.cityofnewyork.us/City-Government/Zoning-Map-Index-Quartersection/58k2-kgtb",
+            "count" : 2
+          }, {
+            "item" : "https://data.cityofnewyork.us/City-Government/Georeferenced-NYC-Zoning-Maps/mxbm-493w",
+            "count" : 1
+          } ],
+          "smallest" : "https://data.cityofnewyork.us/City-Government/Georeferenced-NYC-Zoning-Maps/mxbm-493w"
+        },
+        "format" : { }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "jsonQuery" : {
+          "order" : [ {
+            "ascending" : true,
+            "columnFieldName" : "planned_release_date"
+          } ]
+        },
+        "rdfSubject" : "0",
+        "rdfClass" : "",
+        "attachments" : [ {
+          "filename" : "Data_Dictionary_Plan.xlsx",
+          "assetId" : "10d2988e-c71a-4e75-852f-5a0c99b30a61",
+          "name" : "Data_Dictionary_Plan.xlsx"
+        } ],
+        "custom_fields" : {
+          "Update" : {
+            "Automation" : "No",
+            "Update Frequency" : "As needed"
+          },
+          "Dataset Information" : {
+            "Agency" : "Department of Information Technology & Telecommunications (DoITT)"
+          }
+        },
+        "rowIdentifier" : "0",
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "rowLabel" : "Row",
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        }
+      },
+      "owner" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards", "manage_provenance", "create_story", "edit_story_title_desc", "create_story_copy", "delete_story", "manage_story_collaborators", "manage_story_visibility", "manage_story_public_version", "edit_story", "view_unpublished_story", "view_story", "view_all_dataset_status_logs", "use_data_connectors" ]
+      },
+      "query" : {
+        "orderBys" : [ {
+          "ascending" : true,
+          "expression" : {
+            "columnId" : 270639124,
+            "type" : "column"
+          }
+        } ]
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "roleName" : "administrator",
+        "screenName" : "NYC OpenData",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards", "manage_provenance", "create_story", "edit_story_title_desc", "create_story_copy", "delete_story", "manage_story_collaborators", "manage_story_visibility", "manage_story_public_version", "edit_story", "view_unpublished_story", "view_story", "view_all_dataset_status_logs", "use_data_connectors" ]
+      },
+      "tags" : [ "open data", "scheduled releases", "datasets" ],
+      "flags" : [ "default", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ 1, "DA992AD2-6EE3-4479-A062-D86780B136E5", 1, 1474412866, "399231", 1474412866, "399231", null, "Department of Transportation (DOT)", "Adopted Highway Service Ratings", "NYC highways that receive a cleanliness rating of good (%).", "To Be Determined", "2016-07-15T00:00:00", "https://data.cityofnewyork.us/Transportation/Adopted-Highway-Service-Ratings-Adopt-a-Highway-Hi/dte3-kvx7" ]
+, [ 2, "E7F81F50-EA49-4C5D-9F0A-FE89877AC9E7", 2, 1474412866, "399231", 1474412866, "399231", null, "Department of Transportation (DOT)", "Bicycle network connectivity index", "Bicycle network connectivity index.", "To Be Determined", "2016-07-15T00:00:00", "https://data.cityofnewyork.us/Transportation/Bicycle-Network-Connectivity-Index/d9fg-z42k" ]
+, [ 3, "57C29600-1CF5-4647-A6A1-79C24211EB25", 3, 1474412866, "399231", 1474412866, "399231", null, "Department of Transportation (DOT)", "Bridge ratings", "Bridges rated good or very good (%) (calendar year).", "To Be Determined", "2016-07-15T00:00:00", "https://data.cityofnewyork.us/Transportation/Bridge-Ratings/9dux-uz3w" ]
+, [ 4, "E7B2302F-F4D6-4BC9-94A6-AFF204B296C9", 4, 1474412866, "399231", 1474412866, "399231", null, "Department of Transportation (DOT)", "Pothole work orders", "Average time to close a pothole work order where repair was done (days).", "To Be Determined", "2016-07-15T00:00:00", "https://data.cityofnewyork.us/Transportation/Pothole-Work-Orders-Closed/psde-rqze" ]
+, [ 5, "CC91941C-4929-45F8-B418-B61FAA302014", 5, 1474412866, "399231", 1474412866, "399231", null, "Department of Transportation (DOT)", "Future Protected Streets - Intersections", "List of Future Protected Streets for intersections. ", "Daily", "2016-07-15T00:00:00", "https://data.cityofnewyork.us/Transportation/Future-Protected-Streets-Intersections/yupw-u2ax" ]
+, [ 6, "0DD19C0F-7CAE-41F3-96C7-0BD75BE2D9D7", 6, 1474412866, "399231", 1474412866, "399231", null, "Department of Transportation (DOT)", "Future Protected Streets - Segments", "List of Future Protected Streets for segments. ", "Daily", "2016-07-15T00:00:00", "https://data.cityofnewyork.us/Transportation/Future-Protected-Streets-Segments/pnij-y7y6" ]
+, [ 7, "F2800486-C11F-47C3-8D48-E5CC445C10AE", 7, 1474412866, "399231", 1474412866, "399231", null, "Department of Transportation (DOT)", "Protected Streets - Intersections", "Current list of Protected Streets for intersections. ", "Daily", "2016-07-15T00:00:00", "https://data.cityofnewyork.us/Transportation/Protected-Streets-Intersections/hfa3-euj3" ]
+, [ 8, "CF27FC09-B5D4-4845-AD5A-C6A11F9FB1C8", 8, 1474412866, "399231", 1474412866, "399231", null, "Department of Transportation (DOT)", "Protected Streets - Segments", "Current list of Protected Streets for segments.", "Daily", "2016-07-15T00:00:00", "https://data.cityofnewyork.us/Transportation/Protected-Streets-Segments/9p9k-tusd" ]
+, [ 9, "7A5A6216-8B59-45EF-ACC6-11BB4FB81AC1", 9, 1474412866, "399231", 1474412866, "399231", null, "New York City Housing Authority (NYCHA)", "Electric Consumption and Cost", "Monthly consumption and cost data by borough and development. Data set includes utility vendor and meter information.   ", "Quarterly", "2016-07-15T00:00:00", "https://data.cityofnewyork.us/Housing-Development/Electric-Consumption-And-Cost-2016/sd8e-3ugp" ]
+, [ 10, "68C3A3EA-7683-4637-882F-85EF3921545C", 10, 1474412866, "399231", 1474412866, "399231", null, "New York City Housing Authority (NYCHA)", "Water Consumption and Cost", "Monthly consumption and cost data by borough and development. Data set includes utility vendor and meter information.   ", "Quarterly", "2016-07-15T00:00:00", "https://data.cityofnewyork.us/Housing-Development/Water-Consumption-And-Cost-2012-2016/66be-66yr" ]
+, [ 11, "3B6B5FB9-05F2-46F0-AC42-F2A9FE0C7039", 11, 1474412866, "399231", 1474412866, "399231", null, "New York City Housing Authority (NYCHA)", "Heating Gas Consumption and Cost", "Monthly consumption and cost data by borough and development. Data set includes utility vendor and meter information.   ", "Quarterly", "2016-07-15T00:00:00", "https://data.cityofnewyork.us/Housing-Development/Heating-Gas-Consumption-And-Cost-2010-2016/it56-eyq4" ]
+, [ 12, "AE9E5528-6FAE-4AED-9BE4-AE91FB24DFC7", 12, 1474412866, "399231", 1474412866, "399231", null, "New York City Housing Authority (NYCHA)", "Cooking Gas Consumption and Cost", "Monthly consumption and cost data by borough and development. Data set includes utility vendor and meter information.   ", "Quarterly", "2016-07-15T00:00:00", "https://data.cityofnewyork.us/Housing-Development/Cooking-Gas-Consumption-And-Cost-2016/b8vr-3ckz" ]
+, [ 13, "B8AD8737-CBAF-4876-832E-59C8335334FA", 13, 1474412866, "399231", 1474412866, "399231", null, "New York City Housing Authority (NYCHA)", "Oil Consumption and Cost", "Monthly consumption and cost data by borough and development. Data set includes utility vendor and meter information.   ", "Quarterly", "2016-07-15T00:00:00", "https://data.cityofnewyork.us/Housing-Development/Heating-Oil-Consumption-And-Cost-2010-2016/bhwu-wuzu" ]
+, [ 14, "8AAFF296-1BF2-4CBC-8CB5-504E76479C25", 14, 1474412866, "399231", 1474412866, "399231", null, "New York City Housing Authority (NYCHA)", "Steam Consumption and Cost", "Monthly consumption and cost data by borough and development. Data set includes utility vendor and meter information.   ", "Quarterly", "2016-07-15T00:00:00", "https://data.cityofnewyork.us/Housing-Development/Steam-Consumption-And-Cost-2010-2016/smdw-73pj" ]
+, [ 15, "D8895E76-E581-462E-A0BA-84E4E16CA713", 15, 1474412866, "399231", 1474412866, "399231", null, "Landmarks Preservation Commission (LPC)", "Requests for Evaluation", "Tabular dataset containing property information, request dates, determinations and determination dates, beginning in 2001.", "To Be Determined", "2016-07-29T00:00:00", null ]
+, [ 16, "0765CB38-9B13-4511-A098-BB4B1E7CD526", 16, 1474412866, "399231", 1474412866, "399231", null, "Department of City Planning (DCP)", "Waterfront Revitalization Program (WRP) ", "Geodatabase of various geographies related to the Waterfront Revitalization Program (WRP), the city's principal coastal zone management tool. ", "As Needed", "2016-07-31T00:00:00", "https://data.cityofnewyork.us/City-Government/WRP-Coastal-Zone-Boundary-Geodatabase/wnv8-7aev" ]
+, [ 17, "1B7CD28B-823D-4CE9-8925-C1224F3E4EEE", 17, 1474412866, "399231", 1474412866, "399231", null, "Department of City Planning (DCP)", "WRP Arthur Kill Ecologically Sensitive Maritime and Industrial Area (ESMIA)", "Shapefile of ESMIA, an area on the West Shore of Staten Island that is both uniquely well-suited to maritime and industrial development and possesses significant natural resources and ecological systems. Part of  New York City's Waterfront Revitalization Program (WRP).", "As Needed", "2016-07-31T00:00:00", "https://data.cityofnewyork.us/Environment/WRP-Coastal-Zone-Boundary-Shapefile/jf36-fifp" ]
+, [ 18, "323AB2DB-2618-44D8-B6EA-35B3335B9E7E", 18, 1474412866, "399231", 1474412866, "399231", null, "Department of City Planning (DCP)", "WRP Priority Marine Activity Zones (PMAZ) ", "Shapefile of PMAZ, areas with concentrations of waterborne transportation uses and important nodes that support the city's waterborne transportation and maritime activities. Part of  New York City's Waterfront Revitalization Program (WRP).", "As Needed", "2016-07-31T00:00:00", "https://data.cityofnewyork.us/Environment/WRP-Coastal-Zone-Boundary-Shapefile/jf36-fifp" ]
+, [ 19, "E1E3845A-33F4-460A-9FAE-F0C0F869AF77", 19, 1474412866, "399231", 1474412866, "399231", null, "Department of City Planning (DCP)", "WRP Recognized Ecological Complexes (REC)", "Shapefile of REC,  clusters of valuable natural features which are more fragmented than those in the SNWAs and are often interspersed with developed sites.", "As Needed", "2016-07-31T00:00:00", "https://data.cityofnewyork.us/Environment/WRP-Coastal-Zone-Boundary-Shapefile/jf36-fifp" ]
+, [ 63, "7BA7CDAE-1915-4167-8567-945CF1861D91", 63, 1474412866, "399231", 1474412866, "399231", null, "Fire Department of New York (FDNY)", "Medical incident dispatch information", "TBD", "Monthly", "2016-10-01T00:00:00", null ]
+, [ 20, "6B20C6C8-E4D9-4217-A8D7-DA4FC61CAF8F", 20, 1474412866, "399231", 1474412866, "399231", null, "Department of City Planning (DCP)", "Bike Counts (shapefile)", "Shapefile of bicycle traffic counts collected at 16 locations (11 on-street, 5 greenway).", "Annually", "2016-07-31T00:00:00", "https://data.cityofnewyork.us/Transportation/NYCDCP-Manhattan-Bike-Count-Locations/xiyt-f6tz?firstRun=true" ]
+, [ 21, "57B46C5B-D36E-4A1A-82A2-D9EEC012F2DB", 21, 1474412866, "399231", 1474412866, "399231", null, "Department of City Planning (DCP)", "Zoning Section Map Index", "Shapefile of zoning section map index, grid to determine which zoning section map relates to specific areas of NYC.", "As Needed", "2016-07-31T00:00:00", "https://data.cityofnewyork.us/dataset/Zoning-Map-Index-Section/bpt7-i8t8" ]
+, [ 22, "E79EF523-349A-4A09-B8A6-E23A71FA9F08", 22, 1474412866, "399231", 1474412866, "399231", null, "Department of City Planning (DCP)", "Zoning Quartersection Map Index", "Shapefile of zoning quartersection map index. Grid to determine which zoning quartersection map relates to specific areas of NYC.", "As Needed", "2016-07-31T00:00:00", "https://data.cityofnewyork.us/City-Government/Zoning-Map-Index-Quartersection/58k2-kgtb" ]
+, [ 23, "655A0B1E-9C83-4015-BD8A-FFC6F9728E0F", 23, 1474412866, "399231", 1474412866, "399231", null, "Department of City Planning (DCP)", "Georeferenced NYC Zoning Maps", "Raster dataset of the entire zoning map catalog for the City of New York as one seamless citywide zoning map.", "Monthly", "2016-07-31T00:00:00", "https://data.cityofnewyork.us/City-Government/Georeferenced-NYC-Zoning-Maps/mxbm-493w" ]
+, [ 24, "174FC112-7200-4338-895A-A9A83E8AE865", 24, 1474412866, "399231", 1474412866, "399231", null, "Fire Department of New York (FDNY)", "Non- Structural Fire incident information by incident type", "This database contains detailed information on individual non-Structural Fire Incidents as completed by the Fire Officer.", "Annually", "2016-08-01T00:00:00", "https://data.cityofnewyork.us/Public-Safety/FDNY-Incidents-Responded-to-by-Fire-Companies/tm6d-hbzd" ]
+, [ 25, "68DD3880-A4A8-4BAF-9944-C3ECF6129F43", 25, 1474412866, "399231", 1474412866, "399231", null, "Fire Department of New York (FDNY)", "Structural Fire incident information by incident type", "This database contains detailed information on individual Structural Fire Incidents as completed by the Fire Officer.", "Annually", "2016-08-01T00:00:00", "https://data.cityofnewyork.us/Public-Safety/FDNY-Incidents-Responded-to-by-Fire-Companies/tm6d-hbzd" ]
+, [ 26, "59EDC6D4-2EA5-426C-B524-67D04314C995", 26, 1474412866, "399231", 1474412866, "399231", null, "Fire Department of New York (FDNY)", "Emergency  incident information by incident type", "This database contains detailed information on individual Emergency Incidents as completed by the Fire Officer.", "Annually", "2016-08-01T00:00:00", "https://data.cityofnewyork.us/Public-Safety/FDNY-Incidents-Responded-to-by-Fire-Companies/tm6d-hbzd" ]
+, [ 27, "C4142A5A-70AC-49D1-A0F0-FBBF17FE8E32", 27, 1474412866, "399231", 1474412866, "399231", null, "Fire Department of New York (FDNY)", "Fire Medical incident information by incident type", "This database contains detailed information on individual Medical Incidents as completed by the Fire Officer.", "Annually", "2016-08-01T00:00:00", "https://data.cityofnewyork.us/Public-Safety/FDNY-Incidents-Responded-to-by-Fire-Companies/tm6d-hbzd" ]
+, [ 28, "C85626CE-61BE-45BB-A5B8-224D760D5F4C", 28, 1474412866, "399231", 1474412866, "399231", null, "Department of Consumer Affairs (DCA)", "Weights, Measures, and Other Tests", "Detailed information about DCA inspections of scales, measuring devices, pricing, and other equipment.", "Weekly", "2016-08-01T00:00:00", "https://data.cityofnewyork.us/City-Government/Weights-Measures-and-Other-Tests/8fei-z6rz" ]
+, [ 29, "8FFC25F3-F217-4BD6-8ED0-1329DE0FA626", 29, 1474412866, "399231", 1474412866, "399231", null, "Office of Chief Medical Examiner (OCME)", "Scene investigations", "Cases where a Scene Investigation was conducted by the OCME.", "Monthly", "2016-08-01T00:00:00", "https://data.cityofnewyork.us/City-Government/Monthly-Indicators/8r6c-ydwk" ]
+, [ 30, "72BB326E-E143-4541-8DFE-F4364AFA361C", 30, 1474412866, "399231", 1474412866, "399231", null, "Office of Chief Medical Examiner (OCME)", "Evidence submissions received for DNA analysis", "Number of cases received by the OCME for DNA analysis.", "Monthly", "2016-08-01T00:00:00", "https://data.cityofnewyork.us/City-Government/Monthly-Indicators/8r6c-ydwk" ]
+, [ 31, "E7658F49-E2F8-47A5-A50F-D49B1179AF0F", 31, 1474412866, "399231", 1474412866, "399231", null, "Office of Chief Medical Examiner (OCME)", "Cases Where Medical Examiner Takes Jurisdiction", "Number of cases where OCME took jurisdiction.", "Monthly", "2016-08-01T00:00:00", "https://data.cityofnewyork.us/City-Government/Monthly-Indicators/8r6c-ydwk" ]
+, [ 32, "563A959B-D8D2-41CA-AC0A-5528C98A1D64", 32, 1474412866, "399231", 1474412866, "399231", null, "Office of Chief Medical Examiner (OCME)", "MLI Scene Arrivals in Median time (hours)", "Time to arrive at the Scene.", "Monthly", "2016-08-01T00:00:00", "https://data.cityofnewyork.us/City-Government/Monthly-Indicators/8r6c-ydwk" ]
+, [ 33, "DBF39344-7916-41A4-B78F-DF8CB55E4463", 33, 1474412866, "399231", 1474412866, "399231", null, "Office of Chief Medical Examiner (OCME)", "Cremation Requests", "Number of Cremation Requests received by the OCME.", "Monthly", "2016-08-01T00:00:00", "https://data.cityofnewyork.us/City-Government/Monthly-Indicators/8r6c-ydwk" ]
+, [ 34, "F06CECA5-3CE5-4C1E-A91D-1035504C80F1", 34, 1474412866, "399231", 1474412866, "399231", null, "Office of Chief Medical Examiner (OCME)", "Cremation Requests Processed in Median time (minutes)", "Cremation request processing time.", "Monthly", "2016-08-01T00:00:00", "https://data.cityofnewyork.us/City-Government/Monthly-Indicators/8r6c-ydwk" ]
+, [ 35, "3B62DF62-22E8-40F4-9823-A98384FB02BD", 35, 1474412866, "399231", 1474412866, "399231", null, "Office of Chief Medical Examiner (OCME)", "Autopsies Performed", "Number of Autopsies performed by the OCME.", "Monthly", "2016-08-01T00:00:00", "https://data.cityofnewyork.us/City-Government/Monthly-Indicators/8r6c-ydwk" ]
+, [ 36, "0D0FFD2D-51DD-47FA-A10D-C4353C1463AC", 36, 1474412866, "399231", 1474412866, "399231", null, "Office of Chief Medical Examiner (OCME)", "External Examinations", "Number of External Exams (No-Autopsy) performed by the OCME.", "Monthly", "2016-08-01T00:00:00", "https://data.cityofnewyork.us/City-Government/Monthly-Indicators/8r6c-ydwk" ]
+, [ 37, "C4F30DC0-2DD3-4957-9A5F-98C62B60EAA3", 37, 1474412866, "399231", 1474412866, "399231", null, "Office of Chief Medical Examiner (OCME)", "Autopsy Reports Completed in Median time (median time in calendar days)", "Time to finalize autopsy report.", "Monthly", "2016-08-01T00:00:00", "https://data.cityofnewyork.us/City-Government/Monthly-Indicators/8r6c-ydwk" ]
+, [ 38, "22E11A10-00C8-4F3F-B23B-4848D98EF9FA", 38, 1474412866, "399231", 1474412866, "399231", null, "Office of Chief Medical Examiner (OCME)", "Toxicology Cases Received", "Number of Toxicology cases received by the OCME (Medical Examiner Cases).", "Monthly", "2016-08-01T00:00:00", "https://data.cityofnewyork.us/City-Government/Monthly-Indicators/8r6c-ydwk" ]
+, [ 39, "ECF3CA9D-F929-4BFD-A3CC-CB90FC7FCE94", 39, 1474412866, "399231", 1474412866, "399231", null, "Office of Chief Medical Examiner (OCME)", "Toxicology Cases Completed (median time in calendar days)", "Toxicology report completed (Medical Examiner Cases).", "Monthly", "2016-08-01T00:00:00", "https://data.cityofnewyork.us/City-Government/Monthly-Indicators/8r6c-ydwk" ]
+, [ 40, "77A1D4FF-2FB3-47E3-87AC-7E801030486B", 40, 1474412866, "399231", 1474412866, "399231", null, "Office of Chief Medical Examiner (OCME)", "Toxicology DUI Cases Received", "Number of Toxicology cases received by the OCME from NYPD (Driving Under the Influence Cases).", "Monthly", "2016-08-01T00:00:00", "https://data.cityofnewyork.us/City-Government/Monthly-Indicators/8r6c-ydwk" ]
+, [ 41, "B271C982-5FB8-4DA1-B079-27D045BAEAAC", 41, 1474412866, "399231", 1474412866, "399231", null, "Office of Chief Medical Examiner (OCME)", "Toxicology DUI Cases Completed (median time in calendar days)", "Toxicology report completed (Driving Under the Influence Cases).", "Monthly", "2016-08-01T00:00:00", "https://data.cityofnewyork.us/City-Government/Monthly-Indicators/8r6c-ydwk" ]
+, [ 42, "3E4F7C4A-B00B-4542-8D21-A0613D4BE9E0", 42, 1474412866, "399231", 1474412866, "399231", null, "Office of Chief Medical Examiner (OCME)", "Toxicology Sexual Assault Cases Received", "Number of Toxicology cases received by the OCME from NYPD (Sexual Assault Cases).", "Monthly", "2016-08-01T00:00:00", "https://data.cityofnewyork.us/City-Government/Monthly-Indicators/8r6c-ydwk" ]
+, [ 43, "577AA6F6-A9C7-4466-8C70-68624E61C312", 43, 1474412866, "399231", 1474412866, "399231", null, "Office of Chief Medical Examiner (OCME)", "Toxicology Sexual Assault Cases Completed (median time in calendar days)", "Toxicology report completed (Sexual Assault Cases).", "Monthly", "2016-08-01T00:00:00", "https://data.cityofnewyork.us/City-Government/Monthly-Indicators/8r6c-ydwk" ]
+, [ 44, "EE7A6E1A-5C13-4699-BAD4-F5C9611CF9B8", 44, 1474412866, "399231", 1474412866, "399231", null, "Office of Chief Medical Examiner (OCME)", "Deaths Reported to Medical Examiner's Office", "Number of Deaths reported to the OCME.", "Monthly", "2016-08-01T00:00:00", "https://data.cityofnewyork.us/City-Government/Monthly-Indicators/8r6c-ydwk" ]
+, [ 45, "31384723-93DF-46BA-BFF1-5EB67E765C1C", 45, 1474412866, "399231", 1474412866, "399231", null, "Office of Chief Medical Examiner (OCME)", "DNA matches with profiles in CODIS", "DNA matches with profiles in CODIS (FBI DNA Database).", "Monthly", "2016-08-01T00:00:00", "https://data.cityofnewyork.us/City-Government/Monthly-Indicators/8r6c-ydwk" ]
+, [ 46, "7ADF449D-6144-4B18-928C-3019C5ACB075", 46, 1474412866, "399231", 1474412866, "399231", null, "Office of Chief Medical Examiner (OCME)", "Average days to complete analysis of DNA cases", "Average days to complete analysis of DNA cases.", "Monthly", "2016-08-01T00:00:00", "https://data.cityofnewyork.us/City-Government/Monthly-Indicators/8r6c-ydwk" ]
+, [ 47, "87AE4840-8BAF-49DF-892A-D91A6AA074F0", 47, 1474412866, "399231", 1474412866, "399231", null, "Office of Chief Medical Examiner (OCME)", "DNA Homicide Cases Completed, from Evidence Submission to Report in median time", "DNA Homicide Cases Completed, from Evidence Submission to Report in median time.", "Monthly", "2016-08-01T00:00:00", "https://data.cityofnewyork.us/City-Government/Monthly-Indicators/8r6c-ydwk" ]
+, [ 48, "4DB02991-0D8B-4222-9BE2-626C1C5CED0D", 48, 1474412866, "399231", 1474412866, "399231", null, "Office of Chief Medical Examiner (OCME)", "DNA Sexual Assault Cases Completed, from Evidence Submission to Report in median time", "DNA Sexual Assault Cases Completed, from Evidence Submission to Report in median time.", "Monthly", "2016-08-01T00:00:00", "https://data.cityofnewyork.us/City-Government/Monthly-Indicators/8r6c-ydwk" ]
+, [ 49, "4F99A175-A76C-45FF-B1C2-A4CC31E4B77C", 49, 1474412866, "399231", 1474412866, "399231", null, "Office of Chief Medical Examiner (OCME)", "DNA Property Crime Cases Completed, from Evidence Submission to Report in median time", "DNA Property Crime Cases Completed, from Evidence Submission to Report in median time.", "Monthly", "2016-08-01T00:00:00", "https://data.cityofnewyork.us/City-Government/Monthly-Indicators/8r6c-ydwk" ]
+, [ 50, "3DD05B2C-41A6-47CD-8EB5-2636B3F5F1D3", 50, 1474412866, "399231", 1474412866, "399231", null, "Office of Chief Medical Examiner (OCME)", "Number of decedent's remains transported and stored by OCME", "Number of decedent's remains transported and stored by OCME.", "Monthly", "2016-08-01T00:00:00", "https://data.cityofnewyork.us/City-Government/Monthly-Indicators/8r6c-ydwk" ]
+, [ 51, "29BED2E0-B523-4A4D-84AD-BBF35D52E02E", 51, 1474412866, "399231", 1474412866, "399231", null, "Office of Chief Medical Examiner (OCME)", "Decedents removed from scene (non-hospital) after investigation in median time (minutes)", "Decedents removed from scene (non-hospital) after investigation in median time (minutes).", "Monthly", "2016-08-01T00:00:00", "https://data.cityofnewyork.us/City-Government/Monthly-Indicators/8r6c-ydwk" ]
+, [ 52, "55E3A805-ABB6-4030-BCE7-B0603F12A0EF", 52, 1474412866, "399231", 1474412866, "399231", null, "Department of Parks and Recreation (DPR)", "Monuments", "Monuments located in NYC Parks.", "Quarterly", "2016-09-15T00:00:00", "https://data.cityofnewyork.us/Recreation/NYC-Parks-Monuments/6rrm-vxj9 " ]
+, [ 53, "72B8CD9B-93E4-4CE9-B87D-14118AEE6160", 53, 1474412866, "399231", 1474412866, "399231", null, "Department of Parks and Recreation (DPR)", "Drinking Fountains", "Drinking Fountain counts reported by the Parks Inspection Program.", "Quarterly", "2016-09-15T00:00:00", "https://data.cityofnewyork.us/Environment/Drinking-Fountains/ph76-k6qa" ]
+, [ 54, "DB0522FB-0ADB-4AC1-B3BA-C43F31329440", 54, 1474412866, "399231", 1474412866, "399231", null, "Department of Citywide Administrative Services (DCAS)", "Certifications List", "A Certification may contain part of a list, the whole list or multiple lists, for a particular title that has been established. It also contains the names of individuals that appear on the eligible list in list sequence order, who may be considered for probable appointment for an agency to fill vacancies and/or replace provisionals.", "Daily", "2016-09-30T00:00:00", null ]
+, [ 55, "3281DC4F-335D-47D9-A03C-B7523DCC480A", 55, 1474412866, "399231", 1474412866, "399231", null, "Department of Health and Mental Hygiene (DOHMH)", "\"Youth Behavioral Risk Survey\" (Epiquery)", "Dataset contains health risk behaviors that contribute to the leading cause of mortality, morbidity and social problems among youth. ", "Annually", "2016-09-30T00:00:00", null ]
+, [ 56, "47159113-A58D-4D60-8DF3-33126661D0A6", 56, 1474412866, "399231", 1474412866, "399231", null, "Department of Health and Mental Hygiene (DOHMH)", "2015 Community Health Profiles", "Dataset for the 2016 Community Health Profiles.", "Annually", "2016-09-30T00:00:00", null ]
+, [ 57, "65A51B85-8E38-480F-9B60-2A74D27F21FA", 57, 1474412866, "399231", 1474412866, "399231", null, "Department of Health and Mental Hygiene (DOHMH)", "Birth Data", "Live births in New York City by jurisdiction.", "Annually", "2016-09-30T00:00:00", null ]
+, [ 58, "7D920B00-5F15-439A-94D7-D143539888D5", 58, 1474412866, "399231", 1474412866, "399231", null, "Department of Health and Mental Hygiene (DOHMH)", "Community Health Survey (EpiQuery)", "Results from DOHMH's annual telephone survey on the health of New Yorkers.", "Annually", "2016-09-30T00:00:00", null ]
+, [ 59, "495F12D4-0326-4D90-8636-B8C25BC04477", 59, 1474412866, "399231", 1474412866, "399231", null, "Department of Health and Mental Hygiene (DOHMH)", "Reportable Disease Surveillance Data", "Dataset contains information on cases of reportable diseases (not including STDs, Tuberculosis or HIV) in New York City.", "Annually", "2016-09-30T00:00:00", null ]
+, [ 60, "D0E626BD-104C-4CB0-AEEF-E0DFA74DADDB", 60, 1474412866, "399231", 1474412866, "399231", null, "Department of Health and Mental Hygiene (DOHMH)", "Reportable Disease Surveillance Data/ HIV (EpiQuery) ", "Dataset contains information related to reportable cases of HIV.", "Annually", "2016-09-30T00:00:00", null ]
+, [ 61, "BCBFC8C8-3B27-4C1C-9689-C5805E7B8117", 61, 1474412866, "399231", 1474412866, "399231", null, "Department of Health and Mental Hygiene (DOHMH)", "Tuberculosis Surveillance Data", "Dataset contains information on Tuberculosis cases reported in New York City.", "Annually", "2016-09-30T00:00:00", null ]
+, [ 62, "E4F27092-6C1B-4DC2-9574-786DEAF63E24", 62, 1474412866, "399231", 1474412866, "399231", null, "Fire Department of New York (FDNY)", "Fire incident dispatch information", "TBD", "Monthly", "2016-10-01T00:00:00", null ]
+, [ 64, "AD37E2FF-E243-4EF1-8A21-77B56B4B6CF6", 64, 1474412866, "399231", 1474412866, "399231", null, "Department of Probation (DOP)", "Adult Operations Active Supervision Case Count by Type", "Number of active adult supervision cases at the end of each month, by supervision category.", "Monthly", "2016-10-01T00:00:00", null ]
+, [ 65, "F3306502-F246-4A37-BEFF-41C34C6C6FFA", 65, 1474412866, "399231", 1474412866, "399231", null, "Department of Probation (DOP)", "Juvenile Operations Active Supervision Case Count by Type", "Number of active juvenile supervision cases at the end of each month, by supervision category.", "Monthly", "2016-10-01T00:00:00", null ]
+, [ 66, "0E69C685-B7E7-469F-A903-3A42F18AC1B7", 66, 1474412866, "399231", 1474412866, "399231", null, "Department of Probation (DOP)", "Adult Operations Investigations Ordered ", "Number of pre-sentence investigation reports ordered for adults each month, by custody status.", "Monthly", "2016-10-01T00:00:00", null ]
+, [ 67, "F563988B-A3BE-4C10-ABBB-01DDC4671A06", 67, 1474412866, "399231", 1474412866, "399231", null, "Department of Probation (DOP)", "Juvenile Operations Investigations Assigned", "Number of investigation reports ordered by courts for Juvenile Operations each month.", "Monthly", "2016-10-01T00:00:00", null ]
+, [ 68, "06B5741D-35A5-4368-BD4D-751E3BFC81D4", 68, 1474412866, "399231", 1474412866, "399231", null, "Department of Probation (DOP)", "Adult Operations Supervision Case Closings by Type", "Number of active supervision cases closed each  month, by supervision category.", "Monthly", "2016-10-01T00:00:00", null ]
+, [ 69, "0BFC2A48-8DC6-482B-99E3-01065BA045B8", 69, 1474412866, "399231", 1474412866, "399231", null, "Department of Probation (DOP)", "Adult Operations Supervision Case Closings by Reason", "Number of active supervision cases closed each  month, by closing type category.", "Monthly", "2016-10-01T00:00:00", null ]
+, [ 70, "31F11702-16C5-4808-88B8-CC915C3A3B7E", 70, 1474412866, "399231", 1474412866, "399231", null, "Department of Probation (DOP)", "Juvenile Operations Supervision Case Closings by Type", "Number of active supervision cases closed each  month, by supervision category.", "Monthly", "2016-10-01T00:00:00", null ]
+, [ 71, "A337EACE-3482-4841-9167-0C9578333682", 71, 1474412866, "399231", 1474412866, "399231", null, "Department of Probation (DOP)", "Juvenile Operations Supervision Case Closings by Reason", "Number of active supervision cases closed each  month, by closing type category.", "Monthly", "2016-10-01T00:00:00", null ]
+, [ 72, "6E4F3393-AAD3-4055-BA4A-5C580BB4DC28", 72, 1474412866, "399231", 1474412866, "399231", null, "Department of Investigation (DOI)", "Performance Management", "This dataset contains select monthly performance statistics that are regularly reported electronically to the Mayor's Office of Operations.", "Monthly", "2016-10-01T00:00:00", null ]
+, [ 73, "C36BF1B6-6073-4983-A513-C9E4476AE659", 73, 1474412866, "399231", 1474412866, "399231", null, "Department of Investigation (DOI)", "Corruption and Whistleblower Lectures ", "This dataset contains  the number of lectures presented each month by specific Inspector General units, and the number of attendees at each lecture.", "Monthly", "2016-10-01T00:00:00", null ]
+, [ 74, "EC40C1A4-1EE1-4032-B447-BE97F3D6C511", 74, 1474412866, "399231", 1474412866, "399231", null, "Department of Investigation (DOI)", "Customer Service ", "This dataset contains statistics on indicators such as the number of emails sent to the agency, and the number of walk-in visits to the agency's headquarters (80 Maiden Lane).", "Monthly", "2016-10-01T00:00:00", null ]
+, [ 75, "38EBF8FC-FA47-4B7C-8568-444E2013B7FC", 75, 1474412866, "399231", 1474412866, "399231", null, "Department of Investigation (DOI)", "City Marshals Revenue ", "This dataset contains annual revenue statistics compiled by the agency's Marshal's Unit.", "Annually", "2016-10-01T00:00:00", null ]
+, [ 76, "3EC54F2F-BC45-4E49-82B6-DFA8AF374133", 76, 1474412866, "399231", 1474412866, "399231", null, "Department of Sanitation (DSNY)", "Inspections", "Tracks location, date and outcome of inspections of permitted, privately operated Municipal Solid Waste disposal locations.", "Monthly", "2016-10-01T00:00:00", null ]
+, [ 77, "54A44A46-57B6-4F17-A6DF-8CE0CBB08FEE", 77, 1474412866, "399231", 1474412866, "399231", null, "Fire Department of New York (FDNY)", "Building inspections completed by inspection type/Number of risk buildings inspected", "TBD", "Monthly", "2016-11-01T00:00:00", null ]
+, [ 78, "8430E926-74DE-4A5D-87C5-AAB63DCD7A25", 78, 1474412866, "399231", 1474412866, "399231", null, "Law Department (LAW)", "Case information", "Case-related information, such as parties to litigation.", "Semi-Annually", "2016-11-15T00:00:00", null ]
+, [ 79, "3419C122-A02D-40E1-BD7E-A00EB3AC0AA4", 79, 1474412866, "399231", 1474412866, "399231", null, "Mayor's Office of Management and Budget (OMB)", "Financial Plan Expense--Nov", "This file contains agency summary level data for PS, OTPS and Total by type of funds.  The dollar amount fields are rounded to the thousands.  The November report,  which may be published in October, November or December each year,  contains the current fiscal year plus three out years of data which  coincide with the release of the published financial plan  ", "Annually", "2016-11-30T00:00:00", null ]
+, [ 80, "E097B158-E4E9-4D35-AB81-0902C65C2F8D", 80, 1474412866, "399231", 1474412866, "399231", null, "Department of Buildings (DOB)", "Licensing Report", "Will contain licensing data such as licensee name, license type, etc.", "Monthly", "2016-12-01T00:00:00", null ]
+, [ 81, "C564149B-29A2-40F5-8209-EAD70FAA951A", 81, 1474412866, "399231", 1474412866, "399231", null, "NYC School Construction Authority (SCA)", "Five Year Plan Summary by Citywide Category ", "Five year plan summary cost by citywide category .", "Bi-Annually", "2016-12-01T00:00:00", null ]
+, [ 82, "7E635C98-0715-4DB9-832A-4129F596BD12", 82, 1474412866, "399231", 1474412866, "399231", null, "Office of the Mayor (OTM)", "Local Law 1 Plan", "The commissioner, in consultation with the city chief procurement officer, shall, no later than July 31 of each year, publish on the division's website a plan and schedule for each agency detailing the anticipated contracting actions for the upcoming fiscal year that form the basis for the agency utilization plan of each such agency.", "Annually", "2016-12-01T00:00:00", null ]
+, [ 83, "B6CFC4C3-492E-4AEE-8468-4531A79EE229", 83, 1474412866, "399231", 1474412866, "399231", null, "Office of the Mayor (OTM)", "Human Services Plan", "A Plan \"detailing the procurement actions anticipated with respect to each contract set to expire and/or planned for continuation during the upcoming fiscal year. The plan should include, but is not be limited to: \"the type of services to be provided, the authorized maximum amount of funding associated with the program, the authorized number of contracts to be let for a particular program, and the month and year of the next planned competitive solicitation\"", "Annually", "2016-12-01T00:00:00", null ]
+, [ 84, "5F4910C0-7D2E-4659-BFB1-667826302F36", 84, 1474412866, "399231", 1474412866, "399231", null, "Office of the Mayor (OTM)", "LL63 of 2011 Plan", "Pursuant to  312(a) of the City Charter, as amended by Local Law 63 of 2011, the Mayor's Office is required to publish a plan and schedule for each City agency detailing the anticipated contracting actions of each agency for the upcoming fiscal year for certain categories of procurement.", "Annually", "2016-12-01T00:00:00", null ]
+, [ 85, "0F80F707-D9A8-4DAC-99A3-3A63AD82B7B8", 85, 1474412866, "399231", 1474412866, "399231", null, "Department of Parks and Recreation (DPR)", "Daily Tasks", "Record of park cleaning activities.", "Quarterly", "2016-12-01T00:00:00", null ]
+, [ 86, "B79DB30F-FD15-448F-9DBE-36F66DA81913", 86, 1474412866, "399231", 1474412866, "399231", null, "Department of City Planning (DCP)", "Mandatory Inclusionary Housing", "A shapefile of the mapped areas in which the Mandatory Inclusionary Housing Program is applicable.", "As Needed", "2016-12-31T00:00:00", null ]
+, [ 87, "99AD54A9-005A-45FD-82B8-D41296314B1F", 87, 1474412866, "399231", 1474412866, "399231", null, "Department of Citywide Administrative Services (DCAS)", "Recent Bid Tabulations", "The Office of Citywide Purchasing (OCP) solicits and awards contracts for a wide variety of goods and services on behalf of all City agencies.", "Weekly", "2016-12-31T00:00:00", null ]
+, [ 88, "4185F6F5-9570-4C51-9F06-5ED70E668D85", 88, 1474412866, "399231", 1474412866, "399231", null, "Department of Consumer Affairs (DCA)", "Waiting List for General Vendor Licenses", "Applicants placed on waiting list for General Vendor licenses after annual lottery. (Lottery not always held each year.)", "Annually", "2016-12-31T00:00:00", null ]
+, [ 89, "C795F985-1F86-48E5-A767-2A0765470CE4", 89, 1474412866, "399231", 1474412866, "399231", null, "Department of Health and Mental Hygiene (DOHMH)", "Death/Mortality Data", "The cause of mortality by jurisdiction in New York City since 2001.", "Annually", "2016-12-31T00:00:00", null ]
+, [ 90, "F1DF61C7-D36C-49A8-AFF8-2AC88206ACEF", 90, 1474412866, "399231", 1474412866, "399231", null, "Department of Health and Mental Hygiene (DOHMH)", "Mobile Vending Permitting", "Dataset contains information on mobile food vending permits and inspections", "Annually", "2016-12-31T00:00:00", null ]
+, [ 91, "7C184F44-A859-4F2D-BF34-18E02340BDD0", 91, 1474412866, "399231", 1474412866, "399231", null, "Department of Health and Mental Hygiene (DOHMH)", "Sexually Transmitted Diseases Surveillance Data", "Dataset contains information on cases of reportable Sexually Transmitted Diseases in New York City.", "Annually", "2016-12-31T00:00:00", null ]
+, [ 92, "A5B2B4CD-F611-4C20-BD23-10412314B362", 92, 1474412866, "399231", 1474412866, "399231", null, "NYC School Construction Authority (SCA)", "Capital project schedules and budgets", "List of capital projects with managing organization, phase status and project costs.", "Quarterly", "2016-12-31T00:00:00", null ]
+, [ 93, "84DE4052-70E4-45F6-BB34-822AB1205FFB", 93, 1474412866, "399231", 1474412866, "399231", null, "NYC Independent Budget Office (IBO)", "Annual tax effort in NYC since 1960", "Annual tax effort (revenue per $100 of taxable resources) with back-up tables for major tax sources, taxable resources.", "Annually", "2017-01-15T00:00:00", null ]
+, [ 94, "F3A761A7-EA86-4E8E-9B6B-4ACF82BAF746", 94, 1474412866, "399231", 1474412866, "399231", null, "Department of Parks and Recreation (DPR)", "2015 Street Tree Census", "Final, complete citywide street tree data from the 2015 Street Tree Census, conducted by volunteers organized by NYC Parks & Recreation.  ", "Historical", "2017-01-15T00:00:00", null ]
+, [ 95, "21F3EBDA-62BA-483F-9BB7-8C0C060DF577", 95, 1474412866, "399231", 1474412866, "399231", null, "Office of Administrative Trials and Hearings (OATH)", "Health, Restaurant and Consumer Hearings Case Status", "This dataset contains case tracking information on the status of each notice of violation received and processed by the OATH Hearings Division-Health, Restaurant and Consumer Hearings.", "Daily", "2017-01-31T00:00:00", null ]
+, [ 96, "9EE7B7F7-F9BE-4AE7-9CDD-5FC9664429FA", 96, 1474412866, "399231", 1474412866, "399231", null, "Department of Education (DOE)", "School Age Ridership", "Summary of documented students by OPT school code.", "Quarterly", "2017-02-01T00:00:00", null ]
+, [ 97, "60558A0E-9660-4D24-895C-BD73DD2B8C3C", 97, 1474412866, "399231", 1474412866, "399231", null, "Department of Education (DOE)", "Midday Trips", "List of daily field trip destinations for a month along with number of trips and number of vehicles.", "Monthly", "2017-02-01T00:00:00", null ]
+, [ 98, "9A61911B-D49A-4444-8788-46585E349569", 98, 1474412866, "399231", 1474412866, "399231", null, "Department of Parks and Recreation (DPR)", "Tree Inventory ", "Routinely updated data on street and park trees under the jurisdiction of NYC Parks.  Park tree inventory data is known to be incomplete, and only captured through routine forestry operations.", "Quarterly", "2017-03-01T00:00:00", null ]
+, [ 99, "2C68F0CB-54B4-4E88-8B44-0FCC4EE54F7B", 99, 1474412866, "399231", 1474412866, "399231", null, "Department of Parks and Recreation (DPR)", "Tree Related Inspection, Work Order and Stewardship Activity Data", "Inspection Info - ratings for inspections, by both park inspectors and park supervisors, of all city parks; Found Conditions - issues discovered during inspections which require attention by staff.", "Quarterly", "2017-03-01T00:00:00", null ]
+, [ 100, "D8094BA4-18EA-48E1-BBBB-6C8D2C7EE352", 100, 1474412866, "399231", 1474412866, "399231", null, "Department of Health and Mental Hygiene (DOHMH)", "Pool Inspections", "Dataset contains information on inspections of pools.", "Annually", "2017-06-01T00:00:00", null ]
+, [ 101, "86583D98-DDD3-4EE6-B5FC-0809C395D582", 101, 1474412866, "399231", 1474412866, "399231", null, "Department of Information Technology and Telecommunications (DoITT)", "Cable Complaints", "Details on complaints made to DoITT’s cable franchising center.", "Quarterly", "2017-06-01T00:00:00", null ]
+, [ 102, "E5373730-44E8-48A3-BF67-0AC4C952E5F7", 102, 1474412866, "399231", 1474412866, "399231", null, "Department of City Planning (DCP)", "Projected Sea Level Rise", "Geodatabase of projected sea level rise based on models released by  New York City Panel on Climate Change (NPCC). Data includes the 10th, 25th, 50th, 75th and 90th percentile projections for the years 2020, 2050, 2080 and 2100.", "As Needed", "2017-06-30T00:00:00", null ]
+, [ 103, "7305707B-52BB-4DDE-BC5A-3350122A314E", 103, 1474412866, "399231", 1474412866, "399231", null, "Department of City Planning (DCP)", "Projected Sea Level Rise 2020 (2 inches)", "Shapefile of projected sea level rise model for the 10th percentile in the year 2020.", "As Needed", "2017-06-30T00:00:00", null ]
+, [ 104, "048C298B-D908-4AE7-BD7A-7ADE55ED982A", 104, 1474412866, "399231", 1474412866, "399231", null, "Department of City Planning (DCP)", "Projected Sea Level Rise 2020 (4 inches)", "Shapefile of projected sea level rise model for the 25th percentile in the year 2020.", "As Needed", "2017-06-30T00:00:00", null ]
+, [ 105, "CE9EDF44-E7B7-4E70-AA8F-667929252817", 105, 1474412866, "399231", 1474412866, "399231", null, "Department of City Planning (DCP)", "Projected Sea Level Rise 2020 (6 inches)", "Shapefile of projected sea level rise model for the 50th percentile in the year 2020.", "As Needed", "2017-06-30T00:00:00", null ]
+, [ 106, "36BB9B3E-DB2D-4874-949A-0C7D1485B9C0", 106, 1474412866, "399231", 1474412866, "399231", null, "Department of City Planning (DCP)", "Projected Sea Level Rise 2020 (8 inches)", "Shapefile of projected sea level rise model for the 75th percentile in the year 2020.", "As Needed", "2017-06-30T00:00:00", null ]
+, [ 107, "1C765C58-4A1C-4016-80B7-CD2056A8A260", 107, 1474412866, "399231", 1474412866, "399231", null, "Department of City Planning (DCP)", "Projected Sea Level Rise 2020 (10 inches)", "Shapefile of projected sea level rise model for the 90th percentile in the year 2020.", "As Needed", "2017-06-30T00:00:00", null ]
+, [ 108, "F0933B0E-B1BE-469E-94D3-33E058D5AB47", 108, 1474412866, "399231", 1474412866, "399231", null, "Department of City Planning (DCP)", "Projected Sea Level Rise 2050 (8 inches)", "Shapefile of projected sea level rise model for the 10th percentile in the year 2050.", "As Needed", "2017-06-30T00:00:00", null ]
+, [ 109, "D9E33A25-C168-4CFE-8828-19BD9D2AF873", 109, 1474412866, "399231", 1474412866, "399231", null, "Department of City Planning (DCP)", "Projected Sea Level Rise 2050 (11 inches)", "Shapefile of projected sea level rise model for the 25th percentile in the year 2050.", "As Needed", "2017-06-30T00:00:00", null ]
+, [ 110, "62F77998-37B1-43C9-AF1C-7D12FCA57E8D", 110, 1474412866, "399231", 1474412866, "399231", null, "Department of City Planning (DCP)", "Projected Sea Level Rise 2050 (16 inches)", "Shapefile of projected sea level rise model for the 50th percentile in the year 2050.", "As Needed", "2017-06-30T00:00:00", null ]
+, [ 111, "129681E2-F579-47F1-8BD1-1139146FEDFE", 111, 1474412866, "399231", 1474412866, "399231", null, "Department of City Planning (DCP)", "Projected Sea Level Rise 2050 (21 inches)", "Shapefile of projected sea level rise model for the 75th percentile in the year 2050.", "As Needed", "2017-06-30T00:00:00", null ]
+, [ 112, "6300204B-7A55-40CA-A302-B96A388AD5E2", 112, 1474412866, "399231", 1474412866, "399231", null, "Department of City Planning (DCP)", "Projected Sea Level Rise 2050 (30 inches)", "Shapefile of projected sea level rise model for the 90th percentile in the year 2050.", "As Needed", "2017-06-30T00:00:00", null ]
+, [ 113, "901CCFC9-C055-4531-891F-A82755D6E977", 113, 1474412866, "399231", 1474412866, "399231", null, "Department of City Planning (DCP)", "Projected Sea Level Rise 2080 (13 inches)", "Shapefile of projected sea level rise model for the 10th percentile in the year 2080.", "As Needed", "2017-06-30T00:00:00", null ]
+, [ 114, "34D8AA0C-A7BB-45AF-8285-AAF7BF39E4E5", 114, 1474412866, "399231", 1474412866, "399231", null, "Department of City Planning (DCP)", "Projected Sea Level Rise 2080 (18 inches)", "Shapefile of projected sea level rise model for the 25th percentile in the year 2080.", "As Needed", "2017-06-30T00:00:00", null ]
+, [ 115, "7AB1E2A9-C335-4B79-B582-D5F1A4BC7FA6", 115, 1474412866, "399231", 1474412866, "399231", null, "Department of City Planning (DCP)", "Projected Sea Level Rise 2080 (29 inches)", "Shapefile of projected sea level rise model for the 50th percentile in the year 2080.", "As Needed", "2017-06-30T00:00:00", null ]
+, [ 116, "91146353-F7C0-42B1-9089-3CA4486A0BF3", 116, 1474412866, "399231", 1474412866, "399231", null, "Department of City Planning (DCP)", "Projected Sea Level Rise 2080 (39 inches)", "Shapefile of projected sea level rise model for the 75th percentile in the year 2080.", "As Needed", "2017-06-30T00:00:00", null ]
+, [ 117, "1CC49C26-6436-4400-8CED-93BFEC885866", 117, 1474412866, "399231", 1474412866, "399231", null, "Department of City Planning (DCP)", "Projected Sea Level Rise 2080 (58 inches)", "Shapefile of projected sea level rise model for the 90th percentile in the year 2080.", "As Needed", "2017-06-30T00:00:00", null ]
+, [ 118, "F1FFD59F-CEC1-4803-B83E-1CFA92179E42", 118, 1474412866, "399231", 1474412866, "399231", null, "Department of City Planning (DCP)", "Projected Sea Level Rise 2100 (15 inches)", "Shapefile of projected sea level rise model for the 10th percentile in the year 2100.", "As Needed", "2017-06-30T00:00:00", null ]
+, [ 119, "6D61943C-5CC9-4082-B13D-7C1E4D3E76BE", 119, 1474412866, "399231", 1474412866, "399231", null, "Department of City Planning (DCP)", "Projected Sea Level Rise 2100 (22 inches)", "Shapefile of projected sea level rise model for the 25th percentile in the year 2100.", "As Needed", "2017-06-30T00:00:00", null ]
+, [ 120, "010C9154-ACC8-4018-9B22-D0B3561A8E75", 120, 1474412866, "399231", 1474412866, "399231", null, "Department of City Planning (DCP)", "Projected Sea Level Rise 2100 (36 inches)", "Shapefile of projected sea level rise model for the 50th percentile in the year 2100.", "As Needed", "2017-06-30T00:00:00", null ]
+, [ 121, "498608AB-0757-4F44-8FE2-F4354EB459D5", 121, 1474412866, "399231", 1474412866, "399231", null, "Department of City Planning (DCP)", "Projected Sea Level Rise 2100 (50 inches)", "Shapefile of projected sea level rise model for the 75th percentile in the year 2100.", "As Needed", "2017-06-30T00:00:00", null ]
+, [ 122, "5F6F3473-AE7B-4045-BB51-2A0F35958546", 122, 1474412866, "399231", 1474412866, "399231", null, "Department of City Planning (DCP)", "Projected Sea Level Rise 2100 (75 inches)", "Shapefile of projected sea level rise model for the 90th percentile in the year 2100.", "As Needed", "2017-06-30T00:00:00", null ]
+, [ 123, "1E635C7D-5048-45BD-882E-E648DCBF5EEF", 123, 1474412866, "399231", 1474412866, "399231", null, "Department of Consumer Affairs (DCA)", "Revocations and Suspensions", "All revocations and suspensions ordered by tribunal.", "Weekly", "2017-06-30T00:00:00", null ]
+, [ 124, "93164F02-B490-420B-ACA5-89622A610D26", 124, 1474412866, "399231", 1474412866, "399231", null, "Department of City Planning (DCP)", "Demographic Profiles of ACS 5 Year Estimates at the Neighborhood Tabulation Area (NTA) level ", "Four tables of ACS demographic profiles for 2011 to 2015 at the NTA level. Four profiles include demographics, economic, housing and sociological.", "Annually", "2017-06-30T00:00:00", null ]
+, [ 125, "8809FEB3-2535-4E47-9190-68895D5C229E", 125, 1474412866, "399231", 1474412866, "399231", null, "Department of City Planning (DCP)", "Demographic Profiles of ACS 5 Year Estimates at the Public Use Microdata Areas (PUMA) level", "Four tables of ACS demographic profiles for 2011 to 2015 at the PUMA level. Four profiles include demographics, economic, housing and sociological.", "Annually", "2017-06-30T00:00:00", null ]
+, [ 126, "21D41933-0BFC-4322-BF0B-F30A17F4F1D9", 126, 1474412866, "399231", 1474412866, "399231", null, "Department of City Planning (DCP)", "Demographic Profiles of ACS 5 Year Estimates at the New York City and Borough level", "Four tables of ACS demographic profiles for 2011 to 2015 at the New York City and Borough level. Four profiles include demographics, economic, housing and sociological.", "Annually", "2017-06-30T00:00:00", null ]
+, [ 127, "3272505D-7A80-47DB-A970-A5FD9CC3C216", 127, 1474412866, "399231", 1474412866, "399231", null, "Department of City Planning (DCP)", "Demographic Profile of ACS 1 Year Estimates at the New York City and Borough level", "Four tables of ACS demographic profiles for 2015 at the New York City and Borough level.", "Annually", "2017-06-30T00:00:00", null ]
+, [ 128, "392CF220-88EC-4D81-8C41-58D2E22CCAFB", 128, 1474412866, "399231", 1474412866, "399231", null, "Department of Transportation (DOT)", "Regulatory sign repair", "Average time to repair priority regulatory signs after notification (days).", "To Be Determined", "2017-07-15T00:00:00", null ]
+, [ 129, "A9D63D71-2310-4A65-A64D-CF28479276A9", 129, 1474412866, "399231", 1474412866, "399231", null, "Department of Homeless Services (DHS)", "Data Dashboard", "The DHS Data Dashboard provides aggregate information on individuals and families by case type; the ethnicity of shelter clients; the number of shelter entrants by borough; the number of shelter exits; how many school aged children are in shelter; the placements of chronically street homeless individuals; and prevention enrollments.", "Quarterly", "2017-07-30T00:00:00", null ]
+, [ 130, "4130B0B8-5D76-44CF-B5C7-52F7AAD6812F", 130, 1474412866, "399231", 1474412866, "399231", null, "Department of Correction (DOC)", "Population Capacity", "Population as a percentage of capacity.", "Monthly", "2017-07-31T00:00:00", null ]
+, [ 131, "86B0BB3B-9C88-4F13-B331-2349C7A479C4", 131, 1474412866, "399231", 1474412866, "399231", null, "Department of Correction (DOC)", "Inmate Injuries", "Serious injury to inmate(s) as a result of violent inmate-on-inmate incidents (monthly rate per 1,000 ADP).", "Monthly", "2017-07-31T00:00:00", null ]
+, [ 132, "61C8A84F-6821-4F7D-AF3E-5D029ED9508E", 132, 1474412866, "399231", 1474412866, "399231", null, "Department of Correction (DOC)", "Jail Population Profiles", "Average inmate population, inmate profiles, staff profiles, incidents by facility.", "Monthly", "2017-07-31T00:00:00", null ]
+, [ 133, "29FC1530-382A-433E-A8F2-0E943FC02DEB", 133, 1474412866, "399231", 1474412866, "399231", null, "Department of Design and Construction (DDC)", "Project Information", "Consolidated information on project status.", "Quarterly", "2017-09-30T00:00:00", null ]
+, [ 134, "51F7C926-3306-4FDE-A846-BB1A93951373", 134, 1474412866, "399231", 1474412866, "399231", null, "Human Resource Administration (HRA)", "JobStat", "Monthly report of performance indicators for HRA Job Center operations.", "Monthly", "2017-12-01T00:00:00", null ]
+, [ 135, "9C3A6C95-2C36-4D10-AE53-6FE02901E2F8", 135, 1474412866, "399231", 1474412866, "399231", null, "Human Resource Administration (HRA)", "Local Law 49 Reporting", "Detailed summary statistics regarding HASA program.", "Quarterly", "2017-12-01T00:00:00", null ]
+, [ 136, "A01C3951-18F6-496A-A792-2085189139E5", 136, 1474412866, "399231", 1474412866, "399231", null, "Human Resource Administration (HRA)", "Local Law 37 Reporting", "Emergency placements.", "Monthly", "2017-12-01T00:00:00", null ]
+, [ 137, "86975302-AA89-4ADD-9134-8EA587514B4C", 137, 1474412866, "399231", 1474412866, "399231", null, "Human Resource Administration (HRA)", "District Resource Statement", "Program receipt by borough and community district.", "Annually", "2017-12-01T00:00:00", null ]
+, [ 138, "7B4CF890-565F-450E-A881-1B3F34B40122", 138, 1474412866, "399231", 1474412866, "399231", null, "Human Resource Administration (HRA)", "Borough/Community District Report", "Program receipt by borough and community district.", "Quarterly", "2017-12-01T00:00:00", null ]
+, [ 139, "CE323643-1FE9-4557-81B9-C0B9EDECCCCF", 139, 1474412866, "399231", 1474412866, "399231", null, "Human Resource Administration (HRA)", "Office of Child Support Enforcement Fact Sheet", "Summary statistics regarding OCSE.", "Monthly", "2017-12-01T00:00:00", null ]
+, [ 140, "ED2FCEE6-A20E-4FCB-9641-BE1B4FF3F16F", 140, 1474412866, "399231", 1474412866, "399231", null, "Human Resource Administration (HRA)", "HASA Fact Sheet", "Summary statistics regarding HASA Program.", "Monthly", "2017-12-01T00:00:00", null ]
+, [ 141, "75B874A8-38CE-43E4-B9B6-35594DE08505", 141, 1474412866, "399231", 1474412866, "399231", null, "Human Resource Administration (HRA)", "CA Application Report", "Local Law 51 mandated report on youth cash assistance applications.", "Annually", "2017-12-01T00:00:00", null ]
+, [ 142, "C96CE643-B6D7-49E0-9DEB-1695AA74CD4F", 142, 1474412866, "399231", 1474412866, "399231", null, "Department of Parks and Recreation (DPR)", "Work Orders", "Corrective and preventative maintenance Parks work orders.", "Quarterly", "2017-12-01T00:00:00", null ]
+, [ 143, "9735E72C-3A73-4EEB-BED5-8E1C998261BC", 143, 1474412866, "399231", 1474412866, "399231", null, "Department of Parks and Recreation (DPR)", "Inspection Information; Found Conditions", "Inspection Info - ratings for inspections of all city parks; Found Conditions - issues discovered during inspections which require attention by staff.", "Quarterly", "2017-12-29T00:00:00", null ]
+, [ 144, "2261EDD8-AFCB-48A2-9972-0A9C3C3EA481", 144, 1474412866, "399231", 1474412866, "399231", null, "Department of Parks and Recreation (DPR)", "Materials Inventory", "Inventory maintained on-hand at Parks storehouses.", "Annually", "2017-12-29T00:00:00", null ]
+, [ 145, "3916BE2E-0836-4A5F-BEB2-E942E9791171", 145, 1474412866, "399231", 1474412866, "399231", null, "Department of Citywide Administrative Services (DCAS)", "OASys: NYC Online Application System ", "Civil Service Exam Information.", "Monthly", "2017-12-31T00:00:00", null ]
+, [ 146, "4CE8EC0B-0F65-4E7E-BFF7-336DE892C6D9", 146, 1474412866, "399231", 1474412866, "399231", null, "Department of Environmental Protection (DEP)", "ARTSACP7", "Contains information on asbestos abatement  projects taking place in New York City.", "Daily", "2017-12-31T00:00:00", null ]
+, [ 147, "3D63E8BF-8349-4B09-88AB-7C2BCD9D42AF", 147, 1474412866, "399231", 1474412866, "399231", null, "Department of Housing Preservation and Development (HPD)", "Additional Housing Development Information", "Additional descriptive data for housing development projects not prescribed by Local Law 44 of 2013.", "Semi-Annually", "2018-01-01T00:00:00", null ]
+, [ 148, "E48D2F2F-6997-425D-AF1A-FC3C776A4387", 148, 1474412866, "399231", 1474412866, "399231", null, "Office of Administrative Trials and Hearings (OATH)", "Trials Division Case Status", "The dataset contains tracking information on the status of each case filed at the OATH Trials Division.", "Daily", "2018-04-30T00:00:00", null ]
+, [ 149, "95FEFCFC-D64B-4CAF-A584-88A0BEB97AC1", 149, 1474412866, "399231", 1474412866, "399231", null, "Department of Information Technology and Telecommunications (DoITT)", "MTF/Pole top Reservations", "Pole tops reserved as part of DoITT's Mobile Telecommunications Franchises (MTF) agreements.", "Annually", "2018-05-01T00:00:00", null ]
+, [ 150, "4A4F2F9B-BDBE-43AD-AC52-544B67B755B2", 150, 1474412866, "399231", 1474412866, "399231", null, "Department of Design and Construction (DDC)", "PIMS", "Comprehensive Project Information.", "As needed", "2018-06-01T00:00:00", null ]
+, [ 151, "A86F47BC-F8D2-456F-85C3-F0B6F477411C", 151, 1474412866, "399231", 1474412866, "399231", null, "Department of Transportation (DOT)", "Staten Island Ferry Trips", "Staten Island Ferry trips that are on time (%).", "To Be Determined", "2018-07-01T00:00:00", null ]
+, [ 152, "12ADAA8F-28FD-4A4C-952C-F317A2919F2F", 152, 1474412866, "399231", 1474412866, "399231", null, "Department of Transportation (DOT)", "Street Furniture and Pavement Markings", "NA", "To Be Determined", "2018-07-01T00:00:00", null ]
+, [ 153, "90F52298-CA4B-47D2-9DA7-0FF79774593B", 153, 1474412866, "399231", 1474412866, "399231", null, "Department of Transportation (DOT)", "Street Lights", "NA", "To Be Determined", "2018-07-01T00:00:00", null ]
+, [ 154, "747432DE-9106-4FCC-A7CC-93626FC63DB8", 154, 1474412866, "399231", 1474412866, "399231", null, "Department of Transportation (DOT)", "Traffic Signal Timing ", "NA", "To Be Determined", "2018-07-01T00:00:00", null ]
+, [ 155, "F5F81FC5-F8E2-4B2A-9FDB-C89D0AA32227", 155, 1474412866, "399231", 1474412866, "399231", null, "Department of Transportation (DOT)", "Muni Meter Parking Data", "Parking information that may be collected from MUNI METERS in NYC. This includes # of tickets printed, duration of parking purchased, location of muni meter, and amount of money collected.", "To Be Determined", "2018-07-15T00:00:00", null ]
+, [ 156, "3BA76651-C8E8-4005-8D6D-051F2AA16097", 156, 1474412866, "399231", 1474412866, "399231", null, "Department of Transportation (DOT)", "Traffic Signal Defects (Response Times)", "Average time to respond to traffic signal defect and make safe (hours).", "To Be Determined", "2018-07-15T00:00:00", null ]
+, [ 157, "82C0ECC4-C686-4920-B3A0-E617D691ADDA", 157, 1474412866, "399231", 1474412866, "399231", null, "Staten Island Borough President (BPSI)", "Category Master File", "This reference table contains category id and descriptions.", "Annually", "2018-08-30T00:00:00", null ]
+, [ 158, "EDD49405-D26F-430F-9CAE-5B6A30DBE41A", 158, 1474412866, "399231", 1474412866, "399231", null, "Staten Island Borough President (BPSI)", "Helpline Cases by Category", "This file contains aggregate information of Helpline Cases by Category.", "Annually", "2018-08-30T00:00:00", null ]
+, [ 159, "1115E398-6F79-484B-9138-E2C21A7F000B", 159, 1474412866, "399231", 1474412866, "399231", null, "Staten Island Borough President (BPSI)", "Total House Number File", "This file contains aggregate information of total new house numbers assigned in Staten Island.", "Annually", "2018-08-30T00:00:00", null ]
+, [ 160, "88F7C15B-BFB6-482C-B03D-4EF2BF7511F8", 160, 1474412866, "399231", 1474412866, "399231", null, "Administration for Children's Services (ACS)", "Community Snapshots", "Select child welfare, child care and youth justice statistics for each CD.", "Annually", "2018-10-29T00:00:00", null ]
+, [ 161, "C8C4D327-746E-4251-9BD9-4417872F41D2", 161, 1474412866, "399231", 1474412866, "399231", null, "Administration for Children's Services (ACS)", "Monthly Flash Report indicators", "Monthly trends in select child welfare, child care and youth justice statistics.", "Monthly", "2018-10-29T00:00:00", null ]
+, [ 162, "52FED193-DA8C-4F12-85BA-9C7D060DF80C", 162, 1474412866, "399231", 1474412866, "399231", null, "Office of Administrative Trials and Hearings (OATH)", "For Hire Vehicle Hearings Case Status", "This dataset contains case tracking information on the status of each notice of violation received and processed by the OATH Hearings Division -For Hire Vehicles.", "Daily", "2018-10-31T00:00:00", null ]
+, [ 163, "735B987F-8201-43AD-A5DB-CD1B65FA5278", 163, 1474412866, "399231", 1474412866, "399231", null, "Brooklyn Borough President (BBP)", "Constituent Requests ", "The number of constituent requests for assistance separated by issues/sub-issues.", "Monthly", "2018-12-31T00:00:00", null ]
+, [ 164, "2E56B022-8416-48A0-8F0E-257A94F2EEE5", 164, 1474412866, "399231", 1474412866, "399231", null, "Business Integrity Commission (BIC)", "Vehicles", "Information on all vehicles used by a trade waste licensee/registrant for the removal of trade waste.  Includes vehicle make, model, year, VIN # and DMV plate information.", "Monthly", "2018-12-31T00:00:00", null ]
+, [ 165, "4A47E948-F35D-4CC6-ABF1-88F8DD8CEF69", 165, 1474412866, "399231", 1474412866, "399231", null, "Business Integrity Commission (BIC)", "Principals", "Information on all principals and key employees of a trade waste licensee/registrant applicant.  Includes employment history, work/home address and contact information.", "Monthly", "2018-12-31T00:00:00", null ]
+, [ 166, "87E80EDA-69A4-4940-AEE1-B8BA73F06D6A", 166, 1474412866, "399231", 1474412866, "399231", null, "Business Integrity Commission (BIC)", "Certificates of Inspection", "Information on inspections of regulated companies vehicles/establishments performed by BIC enforcement staff.  Includes inspection location, company, vehicle and driver  information, as well as specifics of inspection and any resulting violations.", "Weekly", "2018-12-31T00:00:00", null ]
+, [ 167, "A08C3B4C-F84A-44A0-BF68-F62BEB0DA6B5", 167, 1474412866, "399231", 1474412866, "399231", null, "Business Integrity Commission (BIC)", "Complaints", "Information on complaints submitted to BIC for investigation.  Includes nature of complaint, complaint location, complainant details, agency response data and resolution", "Daily", "2018-12-31T00:00:00", null ]
+, [ 168, "4F006D88-B0BC-412B-B49B-ADCD55737110", 168, 1474412866, "399231", 1474412866, "399231", null, "Business Integrity Commission (BIC)", "Violation Issuance", "Information on violations issued by BIC including Rule/Regulation, Respondent, Location, and Fine.", "Daily", "2018-12-31T00:00:00", null ]
+, [ 169, "6AC1392D-2569-49BC-AF49-276D0A8C5389", 169, 1474412866, "399231", 1474412866, "399231", null, "Business Integrity Commission (BIC)", "Approved Operating Companies", "This list contains a list of all approved and operating companies within BIC's regulated industries.", "Monthly", "2018-12-31T00:00:00", null ]
+, [ 170, "2E4A2FB7-DD78-4245-9D2B-83A4F5F2F0C4", 170, 1474412866, "399231", 1474412866, "399231", null, "Department of Consumer Affairs (DCA)", "Trust Fund Invasions and  Repayments", "Consumer restitution and DCA fines paid out of DCA-administered Home Improvement Contractor and Tow Truck Trust funds for trust fund participants that are delinquent on their debts.", "Weekly", "2018-12-31T00:00:00", null ]
+, [ 171, "A177A6F4-3E1A-4962-AC94-983D24E8EE0F", 171, 1474412866, "399231", 1474412866, "399231", null, "Department of Consumer Affairs (DCA)", "Receivables and Receipts", "Fees and fines owed to DCA and payments thereon.", "Weekly", "2018-12-31T00:00:00", null ]
+, [ 172, "712A2615-972A-48D3-85DF-739414FBAC2B", 172, 1474412866, "399231", 1474412866, "399231", null, "Department of Consumer Affairs (DCA)", "Financial Empowerment Center Client Outcomes", "Aggregate data on outcomes achieved by clients using DCA's financial counseling services.", "Monthly", "2018-12-31T00:00:00", null ]
+, [ 173, "2CBFC389-C5FC-4814-AA04-D5B803C87536", 173, 1474412866, "399231", 1474412866, "399231", null, "Department of Education (DOE)", "Bus Route Status", "Bus Route Status for the day. Information coming from the Bus Route Status System 2.0. The Office of Pupil Transportation (OPT) provides service to over 600,000 NYC students attending both public and non-public schools located within the five boroughs and neighboring counties in New York, New Jersey and Connecticut.", "Daily", "2018-12-31T00:00:00", null ]
+, [ 174, "473EBB39-5B1A-4EDA-A3F0-0556A772DBD1", 174, 1474412866, "399231", 1474412866, "399231", null, "Department of Environmental Protection (DEP)", "Sewer Connection Permit", "Sewer Connection Permit.", "Daily", "2018-12-31T00:00:00", null ]
+, [ 175, "16DDC4F9-F76A-46A4-A829-184CD899CE6D", 175, 1474412866, "399231", 1474412866, "399231", null, "Department of Environmental Protection (DEP)", "Sewer Plug Permit ", "Sewer Plug Permit.", "Daily", "2018-12-31T00:00:00", null ]
+, [ 176, "26075172-8AD9-4663-9BF9-A6745D63F992", 176, 1474412866, "399231", 1474412866, "399231", null, "Department of Environmental Protection (DEP)", "Water Service Plug Permit", "Water Service Plug Permit.", "Daily", "2018-12-31T00:00:00", null ]
+, [ 177, "F67947FD-EC7D-4674-B737-E19B5F1C0610", 177, 1474412866, "399231", 1474412866, "399231", null, "Department of Environmental Protection (DEP)", "Private Water Main Construction Permit", "Private Water Main Construction Permit.", "Daily", "2018-12-31T00:00:00", null ]
+, [ 178, "A1CCF6F8-9AEC-4F1D-862B-337B6B3D13C7", 178, 1474412866, "399231", 1474412866, "399231", null, "Department of Environmental Protection (DEP)", "Private Sewer Construction Permit", "Private Sewer Construction Permit.", "Daily", "2018-12-31T00:00:00", null ]
+, [ 179, "28D5F330-9234-4629-839F-ACC20DB8F4CA", 179, 1474412866, "399231", 1474412866, "399231", null, "Department of Environmental Protection (DEP)", "Manhole Permit", " Manhole Permit.", "Daily", "2018-12-31T00:00:00", null ]
+, [ 180, "0B45C0F8-A150-4994-BE16-91D1AD66CD24", 180, 1474412866, "399231", 1474412866, "399231", null, "Department of Environmental Protection (DEP)", "Seepage Basins Permit", "Seepage Basins Permit.", "Daily", "2018-12-31T00:00:00", null ]
+, [ 181, "3016DEE2-D4E5-4DCF-97D9-6FE5A1A60E92", 181, 1474412866, "399231", 1474412866, "399231", null, "Department of Environmental Protection (DEP)", "Catch Basin Permit ", "The DEP Application and Permit data will contain information about the different types of applications approved and permits issued on a regular basis. The Data will include application information such as development details, location, results, and status information.", "Daily", "2018-12-31T00:00:00", null ]
+, [ 182, "4FB67A11-DFB0-484A-8093-D8D4F4D2FA92", 182, 1474412866, "399231", 1474412866, "399231", null, "Department of Finance (DOF)", "Refund List - Real Property Tax", "Details about refund checks for overpaid Property Tax accounts, with amounts broken down by specific charge. Available for calendars years 2011-Current.", "Monthly", "2018-12-31T00:00:00", null ]
+, [ 183, "9C5177EA-2F79-435C-91D9-484D6004F5CD", 183, 1474412866, "399231", 1474412866, "399231", null, "Department of Finance (DOF)", "Scofftow", "Information on vehicles towed or booted, and potentially auctioned as a result of parking ticket non-payment enforcement.", "Monthly", "2018-12-31T00:00:00", null ]
+, [ 184, "049F1E13-1943-4189-8012-A779E4EF5C5E", 184, 1474412866, "399231", 1474412866, "399231", null, "Department of Finance (DOF)", "Personal Property - Remarks Record", "This dataset contains remarks information (if any) for recorded documents.", "Monthly", "2018-12-31T00:00:00", null ]
+, [ 185, "721F5CB2-AA03-480D-A4CA-84E9B81056D9", 185, 1474412866, "399231", 1474412866, "399231", null, "Department of Finance (DOF)", "Banking Corporation Tax Issuer Allocation Percentage Reports", "IAP for all corporations subject to the tax for 1997 - Current.", "Annually", "2018-12-31T00:00:00", null ]
+, [ 186, "57F5B457-A753-4989-9F42-9C857AC9DC2E", 186, 1474412866, "399231", 1474412866, "399231", null, "Department of Finance (DOF)", "General Corporation Tax Issuer Allocation Percentage Reports", "IAP for all corporations subject to the tax for 1998 - Current.", "Annually", "2018-12-31T00:00:00", null ]
+, [ 187, "D39964D3-562B-49F4-922D-0F8452431C80", 187, 1474412866, "399231", 1474412866, "399231", null, "Department of Finance (DOF)", "Cigarette Tax Enforcement Data ", "Amount billed and collected from vendors or untaxed cigarettes, including number of NYC customers for each vendor.", "Monthly", "2018-12-31T00:00:00", null ]
+, [ 188, "7019ADC9-AA92-4FA8-9887-0F716FB04C79", 188, 1474412866, "399231", 1474412866, "399231", null, "Department of Finance (DOF)", "Public Improvement Lien (Mechanics Liens) Docket", "Details about claims of non-payment for labor or materials provided to a government contractor or subcontractor.", "Monthly", "2018-12-31T00:00:00", null ]
+, [ 189, "B37FBB6A-E570-4E38-B3EF-AF068CD4575C", 189, 1474412866, "399231", 1474412866, "399231", null, "Department of Finance (DOF)", "Real Property Income and Expense Form Non-Compliance Lists", "Properties required to file RPIE-2010 which did not do so.", "Annually", "2018-12-31T00:00:00", null ]
+, [ 190, "CFBD50E8-2903-4832-851A-F50A9D03DA9A", 190, 1474412866, "399231", 1474412866, "399231", null, "Department of Finance (DOF)", "CPRR", "CPPR interfaces for payments via web pages or in person with various agencies such as DOF Parking & Camera Violations, Property Taxes, DCAS, DOHMH, DOB, DOR, HPD, FDNY, ECB, SAPO, DPR, DOT, DEP, BIC, DCA, OATH, DFTA, TLC.", "To Be Determined", "2018-12-31T00:00:00", null ]
+, [ 191, "9921891F-C5CC-4E38-B525-0B4E302A3261", 191, 1474412866, "399231", 1474412866, "399231", null, "Department of Finance (DOF)", "Property Abatements", "Benefits which reduce property tax liability and related details.  Abatement detail files (mainframe files).", "Quarterly", "2018-12-31T00:00:00", null ]
+, [ 192, "20626F06-F0A7-4BE6-95C4-4AC7ACE08AF5", 192, 1474412866, "399231", 1474412866, "399231", null, "Department of Finance (DOF)", "Licensed Cigarette Wholesale Dealers                           ", "Mainframe file.", "Annually", "2018-12-31T00:00:00", null ]
+, [ 193, "44525236-F874-4E74-BE2D-B9FE9446F70D", 193, 1474412866, "399231", 1474412866, "399231", null, "Department of Finance (DOF)", "Open Balance Detail", "Property Related Charge information by period.", "Quarterly", "2018-12-31T00:00:00", null ]
+, [ 194, "2E95CC07-C04B-4F4F-83E5-528EA466A228", 194, 1474412866, "399231", 1474412866, "399231", null, "Department of Finance (DOF)", "Annualized Calendar Sales Update", "Sales data for the calendar year.", "Annually", "2018-12-31T00:00:00", null ]
+, [ 195, "7AEB52D2-685A-4C8A-9CEE-1F4F487878AE", 195, 1474412866, "399231", 1474412866, "399231", null, "Department of Finance (DOF)", "CMVT - Annual", "Commercial Moto Vehicle Tax  non-medallion mass billing.", "Annually", "2018-12-31T00:00:00", null ]
+, [ 196, "C99B5E61-A368-432A-8110-1B90EE5C1906", 196, 1474412866, "399231", 1474412866, "399231", null, "Department of Finance (DOF)", "Property Assessments ", "Property descriptive and Assessment Data.", "Quarterly", "2018-12-31T00:00:00", null ]
+, [ 197, "D660C91A-6034-425C-95E3-E8B3ADADF1DD", 197, 1474412866, "399231", 1474412866, "399231", null, "Department of Finance (DOF)", "CMVT - Semi-Annual", "Commercial Moto Vehicle Tax  medallion mass billing.", "Semi-Annually", "2018-12-31T00:00:00", null ]
+, [ 198, "E5F30208-5D13-4A74-86CE-212842BD30DC", 198, 1474412866, "399231", 1474412866, "399231", null, "Department of Health and Mental Hygiene (DOHMH)", "Healthcare Facilities Directory", "A list of hospitals, nursing homes and adult care facilities.", "Annually", "2018-12-31T00:00:00", null ]
+, [ 199, "43214477-997B-47FC-9436-79482DD33EE7", 199, 1474412866, "399231", 1474412866, "399231", null, "Department of Health and Mental Hygiene (DOHMH)", "HIV Condom Distribution Sites", "Location and facility information for businesses and providers who distribute the New York City condom.", "Quarterly", "2018-12-31T00:00:00", null ]
+, [ 200, "24C3EC75-CFD9-469A-B1D1-64E335FF2B7B", 200, 1474412866, "399231", 1474412866, "399231", null, "Department of Health and Mental Hygiene (DOHMH)", "Radiation Producing Equipment", "Dataset contains information on Department inspections of radiation-producing equipment.", "Annually", "2018-12-31T00:00:00", null ]
+, [ 201, "C857316D-F688-4E34-A121-BFAFFA09EB64", 201, 1474412866, "399231", 1474412866, "399231", null, "Department of Transportation (DOT)", "Manhattan River Crossings ", "Presents vehicular volumes, classification and trends for all bridge and tunnel facilities serving Manhattan River Crossings.", "To Be Determined", "2018-12-31T00:00:00", null ]
+, [ 202, "F15DD045-8B8B-4F6C-9827-5062892E4BDC", 202, 1474412866, "399231", 1474412866, "399231", null, "New York City Council (NYCC)", "Land use items", "This list contains information related to land use items before the Council.", "Monthly", "2018-12-31T00:00:00", null ]
+, [ 203, "AC082D62-9B8B-40D5-8CDB-4DAF8F328DA1", 203, 1474412866, "399231", 1474412866, "399231", null, "NYC Commission on Human Rights (CCHR)", "Historical Complaints", "Law Enforcement Bureau Case - Complaints record.", "Monthly", "2018-12-31T00:00:00", null ]
+, [ 204, "9FF24AA0-1FAF-4B9E-9274-B4E174F6693D", 204, 1474412866, "399231", 1474412866, "399231", null, "NYC Commission on Human Rights (CCHR)", "Historical Necessary Parties ", "Law Enforcement Bureau Case Tracking System - Additional respondents for the complaints.", "Monthly", "2018-12-31T00:00:00", null ]
+, [ 205, "1DFF6654-1B6E-4BAC-9AB7-E3C621D4CE4B", 205, 1474412866, "399231", 1474412866, "399231", null, "NYC Commission on Human Rights (CCHR)", "Benefit Log ", "Tracking of Educational Activities by the Community Relations Bureau, and income of the recipients.", "Monthly", "2018-12-31T00:00:00", null ]
+, [ 206, "CF6BEBEA-055A-4B0D-A4DA-75331AE4CCB6", 206, 1474412866, "399231", 1474412866, "399231", null, "NYC Commission on Human Rights (CCHR)", "Inquiries", "Tracking of Inquiries made to Agency Human Rights Specialist, and other staff.", "Monthly", "2018-12-31T00:00:00", null ]
+, [ 207, "12AE5964-F2E7-4F81-9166-8E252924C2F7", 207, 1474412866, "399231", 1474412866, "399231", null, "NYC Commission on Human Rights (CCHR)", "Historical Events", "Law Enforcement Bureau Case -  Events for complaint.", "Monthly", "2018-12-31T00:00:00", null ]
+, [ 208, "D0124E71-9B53-4F4E-9990-A8BF784B0022", 208, 1474412866, "399231", 1474412866, "399231", null, "NYC Commission on Human Rights (CCHR)", "Office of Meditation and Conflict Resolution Listings", "Office of Mediation and Conflict Resolution - Listing of cases processed by OMCR.", "Monthly", "2018-12-31T00:00:00", null ]
+, [ 209, "667B6549-F492-409F-B148-935DE1C8B711", 209, 1474412866, "399231", 1474412866, "399231", null, "NYC Commission on Human Rights (CCHR)", "Historical Allegations", "Law Enforcement Bureau Case - Allegations for the complaints.", "Monthly", "2018-12-31T00:00:00", null ]
+, [ 210, "D708C4E1-3B8B-4D81-86E7-C47A00A1CADD", 210, 1474412866, "399231", 1474412866, "399231", null, "NYC Commission on Human Rights (CCHR)", "Appeals", "Law Enforcement Bureau - Listing of cases appealed.", "Monthly", "2018-12-31T00:00:00", null ]
+, [ 211, "81349B16-6615-48EE-B2A1-9FDC5A014D68", 211, 1474412866, "399231", 1474412866, "399231", null, "NYC Commission on Human Rights (CCHR)", "Historical Attorney", "Law Enforcement Bureau - Attorney info for the complaints.", "Monthly", "2018-12-31T00:00:00", null ]
+, [ 212, "DA0C6DA4-DE68-4716-9F9E-9690FE9DBEED", 212, 1474412866, "399231", 1474412866, "399231", null, "NYC Commission on Human Rights (CCHR)", "Historical Amendments", "Law Enforcement Bureau - Amendments for the complaints.", "Monthly", "2018-12-31T00:00:00", null ]
+ ]
+}
